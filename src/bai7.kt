@@ -1,4 +1,4 @@
-// Bai 7
+// Bai 7 - 9: If-else
 
 fun main(args: Array<String>) {
     print("Nhap diem: ")
@@ -15,14 +15,4 @@ fun main(args: Array<String>) {
     var b = 11
     var max = if (a > b) a else b
     println(max)
-
-    var x = readln().toIntOrNull();
-    if (x != null) {
-        when (x % 2) {
-            1 -> print("x la so le")
-            0 -> print("x la so chan")
-        }
-    } else {
-        print("nhap loi")
-    }
 }
